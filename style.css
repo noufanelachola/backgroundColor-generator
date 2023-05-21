@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+body {
+    width: 100%;
+}
+
+.color-container {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-container ul {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    row-gap: 1.5rem;
+
+    margin: 0 3rem;
+}
+
+.color-container ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/* .color-container ul li label{
+    color: purple;
+} */
+
+.color-container ul li input {
+    width: 100%;
+}
